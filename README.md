@@ -5,7 +5,7 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=sayyedarib" alt="sayyedarib" /></a> </p>
 
-- 🔭 I’m currently working at [Amupedia]("www.amupedia.com")
+- 🔭 I’m currently working at [Amupedia](www.amupedia.com)
 
 - 🌱 I’m currently learning **React**
 
