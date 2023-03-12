@@ -5,11 +5,11 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=sayyedarib" alt="sayyedarib" /></a> </p>
 
-- 🔭 I’m currently working at [Amupedia](https://github.com/sayyedarib/Project-Amupedia)
+- 🔭 I’m currently working at ([DonorLink](https://github.com/sayyedarib/Donation))
 
-- 🌱 I’m currently learning **React**
+- 🌱 I’m currently learning **to inetegrate Razorpay**
 
-- 💬 Ask me about **HTML CSS**
+- 💬 Ask me about **HTML,CSS,JS,React**
 
 - 📫 How to reach me **sayyedaribhussain4321@gmail.com**
 
