@@ -27,4 +27,6 @@
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=sayyedarib&show_icons=true&locale=en&layout=compact" alt="sayyedarib" /></p>
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=sayyedarib&show_icons=true&locale=en" alt="sayyedarib" /></p>
+<br/>
+[![Aarib's github activity graph](https://github-readme-activity-graph.cyclic.app/graph?username=sayyedarib&theme=xcode)](https://git.io/sayyedarib)
 
