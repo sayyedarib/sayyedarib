@@ -7,9 +7,7 @@
 
 - 🔭 I’m currently working at ([DonorLink](https://github.com/sayyedarib/Donation))
 
-- 🌱 I’m currently learning **to inetegrate Razorpay**
-
-- 💬 Ask me about **HTML,CSS,JS,React**
+- 🌱 I’m currently learning **Devops**
 
 - 📫 How to reach me **sayyedaribhussain4321@gmail.com**
 
@@ -27,6 +25,4 @@
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=sayyedarib&show_icons=true&locale=en&layout=compact" alt="sayyedarib" /></p>
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=sayyedarib&show_icons=true&locale=en" alt="sayyedarib" /></p>
-
-[![Aarib's github activity graph](https://github-readme-activity-graph.cyclic.app/graph?username=sayyedarib&theme=xcode)](https://git.io/sayyedarib)
 
