@@ -5,9 +5,9 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=sayyedarib" alt="sayyedarib" /></a> </p>
 
-- 🔭 I’m currently working at ([DonorLink](https://github.com/sayyedarib/Donation))
+- 🔭 I’m building a donation platform named ([DonorLink](https://github.com/sayyedarib/Donation))
 
-- 🌱 I’m currently learning **Devops**
+- 🌱 I’m currently learning **Machine Learning**
 
 - 📫 How to reach me **sayyedaribhussain4321@gmail.com**
 
