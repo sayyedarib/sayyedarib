@@ -9,7 +9,7 @@
 
 - 📫 How to reach me **sayyedaribhussain4321@gmail.com**
 
-- 📄 Know about my experiences [Resume](https://drive.google.com/file/d/1s4MJVij8LcjtN7eYoYycf7hbUnhAtJld/view?usp=sharing)
+- 📄 Know about my experiences [Resume](https://drive.google.com/file/d/1iSQzu-g_L_v_rohIgdt8wCjtN1T2B-Jg/view?usp=sharing)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
