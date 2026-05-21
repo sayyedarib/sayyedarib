@@ -28,8 +28,8 @@
 
 ### 🚀 Featured Projects
 
-- **[Botcraft](https://github.com/sayyedarib)** — No-code AI chatbot builder with configurable prompts, memory & modular workflows
-- **[Khan Group Hostel Platform](https://github.com/sayyedarib)** — Booking system that processed 150+ bookings & ₹70K+ in month one
+- **[Botcraft](https://github.com/sayyedarib/botcraft-frontend)** — No-code AI chatbot builder with configurable prompts, memory & modular workflows
+- **[Khan Group Hostel Platform](https://github.com/sayyedarib/hostel-booking-frontend)** — Booking system that processed 150+ bookings & ₹70K+ in month one
 
 ---
 
