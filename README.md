@@ -1,59 +1,57 @@
 <h1>Hey, I'm Aarib 👋</h1>
 
-**Software engineer at [telecrm](https://telecrm.in).** I'd rather read the config than guess at it.
-
-I work across the whole stack of a CRM that 2,300+ businesses lean on every day: Angular up front, Node.js and PostgreSQL behind it, AWS underneath, and a mobile app that used to take 23 seconds to open on a budget phone. It takes 12 now. You're welcome, low-end Android users.
-
-```console
-$ whoami
-aarib — builds it, runs it, and finds out why it broke.
-
-$ cat values.txt
-→ Root cause over closed ticket.
-→ If I can't measure it, I don't claim it.
-→ Agents write the first draft. I read every diff.
-→ Leave docs for the next person. I was the next person once, in an undocumented codebase.
-
-$ uptime
- 1.5+ years in production, 0 years of pretending I know the answer before reading the logs.
-```
+Full-stack software engineer at **[telecrm](https://telecrm.in)**, a CRM that 2,300+ businesses run their sales on. I build features across the frontend and backend, and I enjoy the part where I figure out *why* something broke.
 
 <img src="https://komarev.com/ghpvc/?username=sayyedarib&label=Profile%20views&color=0e75b6&style=flat" alt="profile views" />
 
 ---
 
-### 🧾 Things I've shipped (receipts attached)
+### 📜 What I've been working on
 
-| What | Before → After | The short story |
-|---|---|---|
-| Mobile startup on low-end devices | **23 s → 12 s** | Bundle went from 23 MB to 10 MB. Turns out a phone doesn't need a desktop diagramming library. |
-| Role-based access control | **5 modules** redesigned | Everyone used to rebuild the same dashboard for themselves. Now a role gets it once, and everyone in that role has it. |
-| Model Context Protocol server | **6 read/write tools** | So LLM apps can work the CRM without asking me. |
-| Regression tests | **300+**, gating every release | The robots say "no" before customers get the chance to. |
-| Bulk update limit | **10,000 → 50,000** leads | One job doing everything became a master handing batches to workers. |
-| Mobile release time | **3-day store review → minutes** | Over-the-air updates. The app stores still get their turn, just less often. |
-| Dev database bill | **$500 → $200/month** | Instances that never crossed 20% CPU got politely downsized. |
-| Analytics dashboards | **200+** for 40+ clients | One funnel view helped marketing lift campaign reply rates by 20%. |
+```console
+$ git log --oneline --author="aarib" telecrm/main
+f3a9c21 perf(mobile): cold start 23s → 12s on budget phones (bundle 23 MB → 10 MB)
+8e1d0b4 feat(rbac): stop making every user rebuild the same dashboard; 5 modules now share by role
+c47e2aa feat(ai): MCP server with 6 read/write tools, so LLM apps can work the CRM
+91bf3d7 feat(jobs): bulk update 10k → 50k leads by splitting one job into master + workers
+2d6c8e0 feat(release): 3-day app store wait → minutes, with over-the-air updates
+7ab4f15 chore(infra): dev RDS bill $500 → $200/mo; instances that never passed 20% CPU got downsized
+5ce0f92 test: 300+ regression tests that run before every release
+0b7d3e1 feat(analytics): 200+ dashboards for 40+ clients; one helped lift campaign replies 20%
+e6f18a4 feat(security): two-factor auth, screenshot prevention, crash reporting
+1a0c0de chore(career): intern (Jan 2025) → full-time engineer (Jun 2025)
+```
 
-Also on the list: two-factor auth, crash reporting with Firebase Crashlytics, and first-line support every fourth sprint, where I learned that "it's not working" is a complete bug report if you ask the right three questions.
+---
+
+### ✅ My definition of done
+
+- [x] Found the root cause, not just the symptom
+- [x] Measured before and after
+- [x] Added a test so it stays fixed
+- [x] Wrote it down for the next person (I was that person once, in an undocumented codebase)
+- [x] Read every line the AI agent wrote before it shipped
 
 ---
 
 ### 🏗️ Side quests
 
-- **[Khan Group of Hostels & PG](https://github.com/sayyedarib/hostel-booking-frontend)**: I built the booking platform for the hostel I was living in. **250+ bookings, ₹2.63L+ in revenue.** The payment gateway allowed one linked account and the owner needed another, so "verification pending" slips were born, and everyone got paid.
-- **[Botcraft](https://github.com/sayyedarib/botcraft-frontend)**: A no-code AI assistant builder. Upload a knowledge base, tune the retrieval pipeline live, and embed it with one `<script>` tag. The part I'd defend in a code review: server state and client state never share a room.
-- **[Project Alpha](https://github.com/sayyedarib/Alpha)**: Play computer games with your body through webcam pose detection. Gaming that technically counts as exercise. Built at Vercera Hackathon 2024.
+- **[Khan Group of Hostels & PG](https://github.com/sayyedarib/hostel-booking-frontend)** · Next.js, TypeScript, Supabase<br/>
+  I built the booking platform for the hostel I was living in: **250+ bookings, ₹2.63L+ in revenue**. The payment gateway allowed one linked account, the owner needed another, so "verification pending" slips were born and everyone still got paid.
+- **[Botcraft](https://github.com/sayyedarib/botcraft-frontend)** · Next.js, FastAPI, LangChain<br/>
+  A no-code AI assistant builder. Upload a knowledge base, tune the retrieval pipeline live, and embed the result with one `<script>` tag.
+- **[Project Alpha](https://github.com/sayyedarib/Alpha)** · Python, MoveNet, Next.js<br/>
+  Play computer games with your body through webcam pose detection. Gaming that technically counts as exercise. Built at Vercera Hackathon 2024.
 
 ---
 
 ### 🌱 Open source
 
-- **5 pull requests merged into [Zulip](https://github.com/zulip/zulip/pulls?q=is%3Apr+author%3Asayyedarib+is%3Amerged)**, including a bot check that stops people claiming PRs they aren't assigned to. Yes, I automated saying "no" politely.
-- Fixed zulipbot's CI: [zulipbot#231](https://github.com/zulip/zulipbot/pull/231).
-- Hacktoberfest contributions across 8+ organizations, including Layer5/Meshery and Ockam. Plus one small Rust fix that I'm unreasonably proud of.
+- **[5 pull requests merged into Zulip](https://github.com/zulip/zulip/pulls?q=is%3Apr+author%3Asayyedarib+is%3Amerged)**, including a bot check that stops people claiming PRs they aren't assigned to.
+- Fixed zulipbot's CI pipeline in [#231](https://github.com/zulip/zulipbot/pull/231).
+- Hacktoberfest fixes across 8+ organizations, including Layer5/Meshery and Ockam.
 
-I came for the programs and stayed for the people. Maintainers who took the time to point out my careless mistakes, politely, are why I review newcomers' PRs the same way.
+The maintainers there were patient with my early mistakes, and that's a big part of why I kept going. I try to pass that on when reviewing someone's first PR.
 
 ---
 
@@ -72,17 +70,23 @@ I came for the programs and stayed for the people. Maintainers who took the time
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white)
 
-**Workspace:** Neovim · Claude Code (with my own skills and hooks) · kiro-cli · herdr · hunk · Bash on Ubuntu, daily for two years, ever since setting up open-source repos on Windows wore me down.
+**Workspace:** Neovim · Claude Code (with my own skills and hooks) · kiro-cli · herdr · hunk · Bash on Ubuntu
+
+---
+
+### 🎲 Fun facts
+
+- My laptop shuts itself down at 10 pm and sends distracting sites to `localhost`. I wrote both rules. I resent both rules.
+- Daily-driving Ubuntu for two years, ever since setting up open-source repos on Windows became a side quest of its own.
+- I have one merged Rust fix. It is one line long. It still counts.
 
 ---
 
 ### 📬 Say hi
 
-**Ask me about:** slow PostgreSQL queries, getting your first open-source PR merged, or why your laptop should shut itself down at 10 pm (mine does, with a systemd timer).
+Always happy to chat about PostgreSQL, open source, Linux setups, or how you're using coding agents day to day.
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-aarib.me-0e75b6?style=flat)](https://aarib.me)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/aarib)
 [![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=flat&logo=leetcode&logoColor=white)](https://leetcode.com/u/Aarib)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:sayyedaribhussain4321@gmail.com)
-
-<sub>P.S. My portfolio has a working terminal. Go ahead, try <code>rm -rf /</code>. There's an undo.</sub>
