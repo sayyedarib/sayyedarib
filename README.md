@@ -74,7 +74,7 @@ The maintainers there were patient with my early mistakes, and that's a big part
 
 ---
 
-### 🎲 Fun facts
+### 🎯 Staying focused
 
 - A systemd timer shuts my laptop down at 10:45 pm, no exceptions.
 - NextDNS plus a few `/etc/hosts` entries keep social media blocked, even on the rare day I actually need it. I set it up to stay focused, and past me was very thorough about it. 😅
