@@ -76,7 +76,8 @@ The maintainers there were patient with my early mistakes, and that's a big part
 
 ### 🎲 Fun facts
 
-- My laptop shuts itself down at 10 pm and sends distracting sites to `localhost`. I wrote both rules. I resent both rules.
+- A systemd timer shuts my laptop down at 10:45 pm, no exceptions.
+- NextDNS plus a few `/etc/hosts` entries keep social media blocked, even on the rare day I actually need it. I set it up to stay focused, and past me was very thorough about it. 😅
 - Daily-driving Ubuntu for two years, ever since setting up open-source repos on Windows became a side quest of its own.
 - I have one merged Rust fix. It is one line long. It still counts.
 
